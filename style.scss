@@ -169,6 +169,7 @@ img {
 			width: auto;
 
 			.col {
+				-ms-grid-column: span 6;
 				grid-column: span 6;
 
 				&.screenshots {
@@ -194,6 +195,7 @@ img {
 
 		.footer.row {
 			.col {
+				-ms-grid-column: span 3;
 				grid-column: span 3;
 			}
 

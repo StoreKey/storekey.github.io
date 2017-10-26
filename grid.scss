@@ -13,10 +13,13 @@ $breakpoints: (
 	padding: 0 24px;
 
 	.row {
+		display: -ms-grid;
 		display: grid;
+		-ms-grid-template-columns: repeat(12, 1fr);
 		grid-template-columns: repeat(12, 1fr);
 
 		.col {
+			-ms-grid-column: span 12;
 			grid-column: span 12;
 		}
 	}
